@@ -7,10 +7,5 @@ service insmod_sh /vendor/bin/init.insmod.sh /vendor/etc/init.insmod.${ro.hardwa
 
 on early-init
     setprop vendor.all.modules.ready 0
-    write /proc/sys/kernel/printk "7 4 1 7"
     write /proc/bootprof "modprobe: Load_Module_START"
     start insmod_sh
-
-#on property:sys.boot_completed=1
-#    write /proc/sys/kernel/printk "7 4 1 7"
-
