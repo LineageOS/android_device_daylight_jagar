@@ -371,6 +371,17 @@ vendor/lib64/mt6789/libpqparamparser.so:vendor/lib64/libpqparamparser.so
 vendor/lib64/vendor.mediatek.hardware.composer_ext@1.0.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.6.so
 
+# Inoco HW
+vendor/bin/hw/vendor.inoco.hardware.hall@1.0-service
+vendor/bin/hw/vendor.inoco.hardware.pogo@1.0-service
+vendor/bin/hw/vendor.inoco.hardware.touch@1.0-service
+vendor/etc/init/vendor.inoco.hardware.hall@1.0-service.rc
+vendor/etc/init/vendor.inoco.hardware.pogo@1.0-service.rc
+vendor/etc/init/vendor.inoco.hardware.touch@1.0-service.rc
+vendor/lib64/vendor.inoco.hardware.hall@1.0.so
+vendor/lib64/vendor.inoco.hardware.pogo@1.0.so
+vendor/lib64/vendor.inoco.hardware.touch@1.0.so
+
 # Kernel Modules Loading
 vendor/bin/init.insmod.sh
 vendor/etc/init.insmod.mt6789.cfg
