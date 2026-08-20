@@ -108,6 +108,12 @@ PRODUCT_PACKAGES += \
     android.hardware.health-service.mediatek \
     android.hardware.health-service.mediatek-recovery
 
+# Keylayout
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/idc/jagar_keyboard.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/jagar_keyboard.idc \
+    $(LOCAL_PATH)/configs/keychars/jagar_keyboard.kcm:$(TARGET_COPY_OUT_VENDOR)/usr/keychars/jagar_keyboard.kcm \
+    $(LOCAL_PATH)/configs/keylayout/jagar_keyboard.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/jagar_keyboard.kl
+
 # Media
 PRODUCT_COPY_FILES += \
     frameworks/av/media/libstagefright/data/media_codecs_google_c2_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_c2_audio.xml \

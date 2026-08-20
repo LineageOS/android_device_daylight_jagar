@@ -52,6 +52,21 @@
         <fqname>@2.0::IThermal/default</fqname>
     </hal>
     <hal format="hidl">
+        <name>vendor.inoco.hardware.hall</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::IHall/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.inoco.hardware.pogo</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::IPogo/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.inoco.hardware.touch</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::ITouch/default</fqname>
+    </hal>
+    <hal format="hidl">
         <name>vendor.mediatek.hardware.apmonitor</name>
         <transport>hwbinder</transport>
         <fqname>@2.0::IApmService/apm_hidl_service</fqname>
