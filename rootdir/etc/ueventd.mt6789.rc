@@ -146,17 +146,6 @@
 /sys/devices/platform/leds-mt65xx/leds/blue   delay_on      0664  system   system
 /sys/devices/platform/leds-mt65xx/leds/blue   delay_off      0664  system   system
 
-
-/sys/class/leds/red  delay_on      0664  system   system
-/sys/class/leds/red   delay_off      0664  system   system
-
-/sys/class/leds/green  delay_on      0664  system   system
-/sys/class/leds/green   delay_off      0664  system   system
-
-/sys/class/leds/blue  delay_on      0664  system   system
-/sys/class/leds/blue   delay_off      0664  system   system
-
-
 #GPIO
 /dev/mtgpio               0600   radio      root
 
@@ -204,10 +193,3 @@
 
 #MTK In-House TEE
 /dev/ttyACM0              0660   radio      radio
-
-#TrustKernel add
-/dev/tkcore_admin         0600   system     system
-/dev/tkcore_client        0666   root       system
-/dev/tkcore_fp            0660   root       system
-/dev/rpmb0                0660   root       system
-/dev/mmcblk0rpmb          0660   root       system
