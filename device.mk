@@ -155,7 +155,6 @@ PRODUCT_PACKAGES += \
 $(call inherit-product, hardware/mediatek/overlay/mssi.mk)
 
 PRODUCT_PACKAGES += \
-    CarrierConfigOverlayjagar \
     FrameworksResOverlayjagar \
     SystemUIOverlayjagar \
     LineageSDKResCommon
