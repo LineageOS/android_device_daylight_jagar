@@ -6,29 +6,10 @@ on init
     mkdir /mnt/media_rw/usbotg 0700 media_rw media_rw
     mkdir /storage/usbotg 0700 root root
 
+    chown system log /sys/fs/pstore/dmesg-ramoops-0
+    chmod 0440 /sys/fs/pstore/dmesg-ramoops-0
+
 on post-fs-data
-
-#Camera
-    chmod 0660 /dev/MAINAF
-    chown system camera /dev/MAINAF
-
-    chmod 0660 /dev/MAINAF2
-    chown system camera /dev/MAINAF2
-
-    chmod 0660 /dev/SUBAF
-    chown system camera /dev/SUBAF
-
-    chmod 0660 /dev/GAF001AF
-    chown system camera /dev/GAF001AF
-
-    chmod 0660 /dev/DW9714AF
-    chown system camera /dev/DW9714AF
-
-    chmod 0660 /dev/LC898212AF
-    chown system camera /dev/LC898212AF
-
-    chmod 0660 /dev/BU64745GWZAF
-    chown system camera /dev/BU64745GWZAF
 
 #SMB
     chown system system /proc/smb/ScreenComm
@@ -36,7 +17,6 @@ on post-fs-data
 
     chmod 0660 /dev/spm
     chown system system /dev/spm
-
 
 on init
     # Refer to http://source.android.com/devices/tech/storage/index.html
@@ -48,29 +28,22 @@ on init
     #
     # export SECONDARY_STORAGE /storage/sdcard1
 
-on charger
-    chmod 0664 /sys/class/leds/red/brightness
-    chmod 0664 /sys/class/leds/blue/brightness
-    chmod 0664 /sys/class/leds/green/brightness
+    #mtk_gpio
+    chmod 0664 /proc/mtk_gpio/soc.pinctrl
+    chown root system /proc/mtk_gpio/soc.pinctrl
 
-on boot
-    chmod 0664 /sys/class/leds/red/brightness
-    chown system system /sys/class/leds/red/brightness
-
-    chmod 0664 /sys/class/leds/green/brightness
-    chown system system /sys/class/leds/green/brightness
-
-    chmod 0664 /sys/class/leds/blue/brightness
-    chown system system /sys/class/leds/blue/brightness
+    #i2c-9 for wacom
+    chmod 0664 /dev/i2c-9
+    chown root system /dev/i2c-9
 
 service fuse_usbotg /system/bin/sdcard -u 1023 -g 1023 -w 1023 -d /mnt/media_rw/usbotg /storage/usbotg
     class late_start
     disabled
 
-# start mmstat
-on property:sys.boot_completed=1
-    mkdir /sys/kernel/tracing/instances/mmstat 711
-    write /sys/kernel/tracing/instances/mmstat/tracing_on 0
-    write /sys/kernel/tracing/instances/mmstat/buffer_size_kb 16
-    write /sys/kernel/tracing/instances/mmstat/events/mmstat/enable 1
-    write /sys/kernel/tracing/instances/mmstat/tracing_on 1
+on property:vendor.all.modules.ready=1
+    # Touch
+    chown system system /proc/ilitek/firmware_version
+
+    #backlight-amber
+    chmod 0664 /sys/class/leds/lcd-backlight-amber/brightness
+    chown system system /sys/class/leds/lcd-backlight-amber/brightness
