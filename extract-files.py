@@ -18,7 +18,7 @@ from extract_utils.main import (
 )
 
 namespace_imports = [
-    'device/xelex/Q25',
+    'device/daylight/jagar',
     'hardware/mediatek',
     'hardware/mediatek/libion_mtk',
     'hardware/mediatek/libmtkperf_client',
@@ -178,8 +178,8 @@ blob_fixups: blob_fixups_user_type = {
 }  # fmt: skip
 
 module = ExtractUtilsModule(
-    'Q25',
-    'xelex',
+    'jagar',
+    'daylight',
     blob_fixups=blob_fixups,
     lib_fixups=lib_fixups,
     namespace_imports=namespace_imports,

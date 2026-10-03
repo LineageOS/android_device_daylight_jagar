@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/xelex/Q25
+DEVICE_PATH := device/daylight/jagar
 
 # Architecture
 TARGET_ARCH := arm64
@@ -38,7 +38,7 @@ AB_OTA_PARTITIONS += \
     vbmeta_vendor
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := q20_v12_factory
+TARGET_BOOTLOADER_BOARD_NAME := jagar
 TARGET_BOARD_FASTBOOT_INFO_FILE := $(DEVICE_PATH)/fastboot-info.txt
 TARGET_NO_BOOTLOADER := true
 
@@ -76,7 +76,7 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := hardware/mediatek/vintf/mediatek_f
 # Kernel
 BOARD_KERNEL_IMAGE_NAME := Image.gz
 TARGET_KERNEL_ARCH := arm64
-TARGET_KERNEL_SOURCE := kernel/xelex/mt6789
+TARGET_KERNEL_SOURCE := kernel/daylight/mt6789
 TARGET_KERNEL_CONFIG := gki_defconfig mgk.config entry_level.config q20_v12_factory.config
 TARGET_KERNEL_CLANG_VERSION := r416183b
 TARGET_KERNEL_CLANG_PATH := $(abspath .)/prebuilts/clang/kernel/$(HOST_PREBUILT_TAG)/clang-$(TARGET_KERNEL_CLANG_VERSION)
@@ -182,4 +182,4 @@ WIFI_DRIVER_STATE_ON := "1"
 WIFI_DRIVER_STATE_OFF := "0"
 
 # Inherit the proprietary files
-include vendor/xelex/Q25/BoardConfigVendor.mk
+include vendor/daylight/jagar/BoardConfigVendor.mk

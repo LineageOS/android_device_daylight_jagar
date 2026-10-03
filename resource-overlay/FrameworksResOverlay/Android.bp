@@ -4,6 +4,6 @@
 //
 
 runtime_resource_overlay {
-    name: "FrameworksResOverlayQ25",
+    name: "FrameworksResOverlayjagar",
     vendor: true,
 }

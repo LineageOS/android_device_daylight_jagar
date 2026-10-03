@@ -155,9 +155,9 @@ PRODUCT_PACKAGES += \
 $(call inherit-product, hardware/mediatek/overlay/mssi.mk)
 
 PRODUCT_PACKAGES += \
-    CarrierConfigOverlayQ25 \
-    FrameworksResOverlayQ25 \
-    SystemUIOverlayQ25 \
+    CarrierConfigOverlayjagar \
+    FrameworksResOverlayjagar \
+    SystemUIOverlayjagar \
     LineageSDKResCommon
 
 DEVICE_PACKAGE_OVERLAYS += \
@@ -286,4 +286,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf
 
 # Inherit the proprietary files
-$(call inherit-product, vendor/xelex/Q25/Q25-vendor.mk)
+$(call inherit-product, vendor/daylight/jagar/jagar-vendor.mk)

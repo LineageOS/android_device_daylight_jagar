@@ -8,7 +8,7 @@
     "target_path": "hardware/mediatek"
   },
   {
-    "repository": "android_kernel_xelex_mt6789",
-    "target_path": "kernel/xelex/mt6789"
+    "repository": "android_kernel_daylight_mt6789",
+    "target_path": "kernel/daylight/mt6789"
   }
 ]
