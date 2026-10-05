@@ -115,6 +115,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/keychars/jagar_keyboard.kcm:$(TARGET_COPY_OUT_VENDOR)/usr/keychars/jagar_keyboard.kcm \
     $(LOCAL_PATH)/configs/keylayout/jagar_keyboard.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/jagar_keyboard.kl
 
+# Keymint
+PRODUCT_PACKAGES += \
+    android.hardware.security.keymint-service
+
 # Media
 PRODUCT_COPY_FILES += \
     frameworks/av/media/libstagefright/data/media_codecs_google_c2_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_c2_audio.xml \
