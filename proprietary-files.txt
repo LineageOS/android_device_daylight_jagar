@@ -645,3 +645,9 @@ vendor/lib/vendor.mediatek.hardware.apmonitor@2.0.so
 vendor/lib64/libifcutils_mtk.so
 vendor/lib64/libmtkrillog.so
 vendor/lib64/vendor.mediatek.hardware.apmonitor@2.0.so
+
+# Wacom
+vendor/bin/wac_flash
+vendor/bin/wac_fw_up_script
+vendor/etc/init/wac_fw_up.rc
+vendor/etc/wac_fw/WEZ01_0252.hex
