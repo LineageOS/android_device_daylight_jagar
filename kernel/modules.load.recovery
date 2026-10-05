@@ -160,3 +160,4 @@ sec.ko
 uload_ind.ko
 load_track.ko
 i2c-dev.ko
+ilitek_i2c.ko
