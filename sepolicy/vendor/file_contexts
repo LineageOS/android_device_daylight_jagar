@@ -1,0 +1,2 @@
+/vendor/bin/hw/vendor\.inoco\.hardware\.hall@1\.0-service    u:object_r:hal_inoco_hall_exec:s0
+/vendor/bin/hw/vendor\.inoco\.hardware\.pogo@1\.0-service    u:object_r:hal_inoco_pogo_exec:s0
