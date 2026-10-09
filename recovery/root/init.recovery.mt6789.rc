@@ -5,3 +5,6 @@ on init
     setprop sys.usb.configfs 1
     setprop sys.usb.controller "musb-hdrc"
     setprop vendor.usb.controller "musb-hdrc"
+    # Make text readable
+    write /sys/class/leds/lcd-backlight/brightness 25
+    write /sys/class/leds/lcd-backlight-amber/brightness 1
