@@ -1,4 +1,4 @@
-# Android Device tree for the Daylight DC-01
+# Android Device tree for the Daylight DC-1
 
 ```
 #

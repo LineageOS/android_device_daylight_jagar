@@ -17,7 +17,7 @@ PRODUCT_NAME := lineage_jagar
 PRODUCT_DEVICE := jagar
 PRODUCT_MANUFACTURER := Daylight
 PRODUCT_BRAND := Daylight
-PRODUCT_MODEL := Daylight DC-01
+PRODUCT_MODEL := Daylight DC-1
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildFingerprint=Daylight/jagar/jagar:13/TP1A.220624.014/2602101745:user/release-keys \
