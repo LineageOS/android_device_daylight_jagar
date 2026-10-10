@@ -162,8 +162,6 @@ vendor/lib/soundfx/libaudiopreprocessing_mtk.so
 vendor/lib/vendor.mediatek.hardware.apuware.utils@2.0.so
 vendor/lib/vendor.mediatek.hardware.audio@6.1.so
 vendor/lib/vendor.mediatek.hardware.audio@7.1.so
-vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so
-vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.2.so
 vendor/lib64/hw/android.hardware.audio@6.0-impl-mediatek.so
 vendor/lib64/hw/android.hardware.audio@7.0-impl-mediatek.so
 vendor/lib64/hw/audio.primary.mediatek.so
@@ -214,8 +212,6 @@ vendor/lib64/soundfx/libaudiopreprocessing_mtk.so
 vendor/lib64/vendor.mediatek.hardware.atci@1.0.so
 vendor/lib64/vendor.mediatek.hardware.audio@6.1.so
 vendor/lib64/vendor.mediatek.hardware.audio@7.1.so
-vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.1.so
-vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.2.so
 
 # Bluetooth
 vendor/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so
