@@ -1,0 +1,1 @@
+type proc_mtk_gpio, fs_type, proc_type;

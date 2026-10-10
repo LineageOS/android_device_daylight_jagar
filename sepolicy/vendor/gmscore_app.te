@@ -1,0 +1,2 @@
+dontaudit gmscore_app sysfs_devices_block:file { read open getattr };
+
