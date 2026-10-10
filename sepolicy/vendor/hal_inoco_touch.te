@@ -1,0 +1,6 @@
+type hal_inoco_touch, domain;
+type hal_inoco_touch_exec, exec_type, vendor_file_type, file_type;
+
+init_daemon_domain(hal_inoco_touch)
+hwbinder_use(hal_inoco_touch)
+get_prop(hal_inoco_touch, hwservicemanager_prop)

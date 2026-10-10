@@ -1,0 +1,2 @@
+# Spamming reads on /sys/.../net/wlan0/address
+dontaudit gmscore_app sysfs_devices_block:file r_file_perms;;
