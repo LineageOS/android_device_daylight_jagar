@@ -1,1 +1,3 @@
 ro.vendor.lgsys.utype    u:object_r:vendor_mtk_mnld_prop:s0
+
+vendor.wac.              u:object_r:vendor_wac_prop:s0 exact bool

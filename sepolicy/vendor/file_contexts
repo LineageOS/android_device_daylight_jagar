@@ -1,2 +1,3 @@
+/vendor/bin/wac_fw_up_script                                 u:object_r:wac_fw_update_exec:s0
 /vendor/bin/hw/vendor\.inoco\.hardware\.hall@1\.0-service    u:object_r:hal_inoco_hall_exec:s0
 /vendor/bin/hw/vendor\.inoco\.hardware\.pogo@1\.0-service    u:object_r:hal_inoco_pogo_exec:s0
