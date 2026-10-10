@@ -1,0 +1,1 @@
+dontaudit untrusted_app_34 vendor_default_prop:file { open getattr map };

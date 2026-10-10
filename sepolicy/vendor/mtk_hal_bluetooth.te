@@ -1,0 +1,4 @@
+allow mtk_hal_bluetooth self:bluetooth_socket create_socket_perms_no_ioctl;
+
+allow mtk_hal_bluetooth self:bluetooth_socket ioctl;
+allowxperm mtk_hal_bluetooth self:bluetooth_socket ioctl HCIGETDEVLIST;
