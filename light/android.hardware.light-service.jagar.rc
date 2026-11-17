@@ -1,0 +1,14 @@
+on early-boot
+    # LED devices
+    chown system system /sys/class/leds/lcd-backlight-amber/brightness
+    chown system system /sys/class/leds/lcd-backlight-amber/max_brightness
+
+    chown system system /sys/class/leds/lcd-backlight/brightness
+    chown system system /sys/class/leds/lcd-backlight/max_brightness
+    chown system system /sys/class/leds/lcd-backlight/trigger
+
+service vendor.light-jagar /vendor/bin/hw/android.hardware.light-service.jagar
+    class hal
+    user system
+    group system
+    shutdown critical
