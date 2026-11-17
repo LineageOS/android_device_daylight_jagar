@@ -1,0 +1,56 @@
+//
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+aidl_interface {
+    name: "vendor.daylight.hardware.light.ext",
+    vendor_available: true,
+    srcs: ["aidl/vendor/daylight/hardware/light/ext/*.aidl"],
+    local_include_dir: "aidl",
+    stability: "vintf",
+    frozen: true,
+    versions_with_info: [
+        {
+            version: "1",
+            imports: [],
+        },
+    ],
+    backend: {
+        cpp: {
+            enabled: false,
+        },
+        java: {
+            enabled: true,
+        },
+        ndk: {
+            enabled: true,
+        },
+    },
+    owner: "lineage",
+}
+
+cc_binary {
+    name: "android.hardware.light-service.jagar",
+    defaults: ["hidl_defaults"],
+    vendor: true,
+    relative_install_path: "hw",
+    init_rc: ["android.hardware.light-service.jagar.rc"],
+    vintf_fragments: ["android.hardware.light-service.jagar.xml"],
+    srcs: [
+        "devices/LedDevice.cpp",
+        "models/Color.cpp",
+        "Devices.cpp",
+        "Lights.cpp",
+        "LightsExt.cpp",
+        "Utils.cpp",
+        "service.cpp",
+    ],
+    local_include_dirs: ["."],
+    shared_libs: [
+        "libbase",
+        "libbinder_ndk",
+        "android.hardware.light-V2-ndk",
+        "vendor.daylight.hardware.light.ext-V1-ndk",
+    ],
+}
