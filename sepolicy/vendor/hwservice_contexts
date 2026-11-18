@@ -1,0 +1,3 @@
+vendor.inoco.hardware.hall::IHall      u:object_r:hal_inoco_hall_hwservice:s0
+vendor.inoco.hardware.pogo::IPogo      u:object_r:hal_inoco_pogo_hwservice:s0
+vendor.inoco.hardware.touch::ITouch    u:object_r:hal_inoco_touch_hwservice:s0
