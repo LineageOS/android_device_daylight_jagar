@@ -1,0 +1,4 @@
+type amber_backlight_app, domain;
+app_domain(amber_backlight_app)
+hal_client_domain(amber_backlight_app, hal_light)
+allow amber_backlight_app app_api_service:service_manager find;
