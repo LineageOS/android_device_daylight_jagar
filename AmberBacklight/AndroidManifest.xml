@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.lineageos.amberbacklight">
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/ic_amber_backlight"
+        android:label="@string/amber_backlight"
+        android:theme="@style/AmberBacklightTheme">
+        <service
+            android:name=".AmberTileService"
+            android:exported="true"
+            android:icon="@drawable/ic_amber_backlight"
+            android:label="@string/amber_backlight"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
+    </application>
+</manifest>
