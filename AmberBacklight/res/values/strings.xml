@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: The LineageOS Project
+  SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="amber_backlight">Amber backlight</string>
+    <string name="brightness">Amber brightness</string>
+    <string name="last_set">Last set: %1$d%%</string>
+    <string name="off">Off</string>
+    <string name="connecting">Connecting…</string>
+    <string name="unavailable">Amber backlight unavailable</string>
+    <string name="write_failed">Could not change amber brightness</string>
+</resources>
