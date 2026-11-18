@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- The default tiles to display in QuickSettings-->
+    <string name="quick_settings_tiles_default" translatable="false">internet,bt,dnd,cast,custom(org.lineageos.amberbacklight/.AmberTileService),flashlight,airplane,rotation,wallet,alarm,controls,screenrecord,battery</string>
+
+    <!-- The default tiles to display in QuickSettings after the internet tile split-->
+    <string name="quick_settings_tiles_default_split" translatable="false">wifi,bt,cell,cast,dnd,wallet,custom(org.lineageos.amberbacklight/.AmberTileService),airplane,rotation,flashlight,battery,alarm,controls,screenrecord</string>
+</resources>

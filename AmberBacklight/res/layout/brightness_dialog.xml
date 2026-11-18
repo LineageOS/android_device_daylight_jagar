@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: The LineageOS Project
+  SPDX-License-Identifier: Apache-2.0
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="vertical" android:padding="20dp">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="@string/amber_backlight" android:textAppearance="?android:attr/textAppearanceMedium" />
+    <TextView android:id="@+id/brightness_value"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:accessibilityLiveRegion="polite" android:text="@string/connecting" />
+    <SeekBar android:id="@+id/brightness"
+        android:layout_width="match_parent" android:layout_height="48dp"
+        android:contentDescription="@string/brightness" android:max="255" android:enabled="false" />
+    <Button android:id="@+id/off" style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content" android:layout_height="48dp"
+        android:text="@string/off" android:enabled="false" />
+</LinearLayout>
