@@ -598,9 +598,7 @@ vendor/lib64/vendor.mediatek.hardware.nvram@1.1.so
 # Power
 vendor/etc/nnapi_powerhal.json
 vendor/lib/libneuroeara.so
-vendor/lib/vendor.mediatek.hardware.netdagent@1.0.so
 vendor/lib64/libneuroeara.so
-vendor/lib64/vendor.mediatek.hardware.netdagent@1.0.so
 
 # Sensors
 vendor/etc/sensors/hals.conf
