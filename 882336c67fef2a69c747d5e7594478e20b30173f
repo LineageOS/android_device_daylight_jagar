@@ -18,6 +18,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9564bf3f_78a772bc",
+        "filename": "AmberBacklight/Android.bp",
+        "patchSetId": 4
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-11-19T00:38:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "39e4a24a_15a229bb",
+      "revId": "882336c67fef2a69c747d5e7594478e20b30173f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5e872349_d15e7c18",
@@ -31,6 +49,24 @@
       "writtenOn": "2026-11-19T00:36:49Z",
       "side": 1,
       "message": "AmberBacklight/res/drawable/ic_amber_backlight.xml",
+      "revId": "882336c67fef2a69c747d5e7594478e20b30173f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b7fa5928_d0930d3a",
+        "filename": "AmberBacklight/AndroidManifest.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-11-19T00:38:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5e872349_d15e7c18",
       "revId": "882336c67fef2a69c747d5e7594478e20b30173f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
@@ -52,6 +88,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "92c5068d_e6b83bef",
+        "filename": "AmberBacklight/res/drawable/ic_amber_backlight.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-11-19T00:38:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a582929b_36e97bda",
+      "revId": "882336c67fef2a69c747d5e7594478e20b30173f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "38093c3d_121ad996",
@@ -65,6 +119,24 @@
       "writtenOn": "2026-11-19T00:36:49Z",
       "side": 1,
       "message": "AmberBacklight/res/drawable/ic_amber_backlight.xml",
+      "revId": "882336c67fef2a69c747d5e7594478e20b30173f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8f251752_1c9ddb42",
+        "filename": "AmberBacklight/res/layout/brightness_dialog.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-11-19T00:38:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "38093c3d_121ad996",
       "revId": "882336c67fef2a69c747d5e7594478e20b30173f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
@@ -86,6 +158,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1ed8597e_61cc67a6",
+        "filename": "AmberBacklight/res/values/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-11-19T00:38:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0064a38d_4d5e8411",
+      "revId": "882336c67fef2a69c747d5e7594478e20b30173f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d4797914_fcd3b150",
@@ -103,6 +193,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "889305fe_7f216256",
+        "filename": "AmberBacklight/res/values/styles.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-11-19T00:38:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d4797914_fcd3b150",
+      "revId": "882336c67fef2a69c747d5e7594478e20b30173f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "bbb3276d_2b23d34b",
@@ -116,6 +224,24 @@
       "writtenOn": "2026-11-19T00:36:49Z",
       "side": 1,
       "message": "attribution to LineageOS",
+      "revId": "882336c67fef2a69c747d5e7594478e20b30173f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "86259562_5d8b049f",
+        "filename": "AmberBacklight/src/org/lineageos/amberbacklight/AmberTileService.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-11-19T00:38:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bbb3276d_2b23d34b",
       "revId": "882336c67fef2a69c747d5e7594478e20b30173f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
