@@ -7,7 +7,11 @@
     <!-- Height of the status bar in portrait.
          Do not read this dimen directly. Use {@link SystemBarUtils#getStatusBarHeight} instead.
          -->
-    <dimen name="status_bar_height_portrait">28dp</dimen>
+    <dimen name="status_bar_height_portrait">36dp</dimen>
+
+    <!-- Default height of the status bar.
+         SystemBarUtils#getStatusBarHeight reads this, not status_bar_height_portrait. -->
+    <dimen name="status_bar_height_default">36dp</dimen>
 
     <!-- Default paddings for content around the corners. -->
     <dimen name="rounded_corner_content_padding">15px</dimen>
