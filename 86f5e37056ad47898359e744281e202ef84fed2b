@@ -16,6 +16,24 @@
       "message": "Aren\u0027t you able to extend the common HAL without forking it?",
       "revId": "86f5e37056ad47898359e744281e202ef84fed2b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "343f5efe_91d6ea8e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-11-19T00:36:40Z",
+      "side": 1,
+      "message": "not that we found? Please point me at it if it exists. LLM didn\u0027t think so either.",
+      "parentUuid": "a90edf0b_92c5ae3d",
+      "revId": "86f5e37056ad47898359e744281e202ef84fed2b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
