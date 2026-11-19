@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a90edf0b_92c5ae3d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-11-19T00:35:10Z",
+      "side": 1,
+      "message": "Aren\u0027t you able to extend the common HAL without forking it?",
+      "revId": "86f5e37056ad47898359e744281e202ef84fed2b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
